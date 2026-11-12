@@ -268,3 +268,27 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* ===== Small screens ===== */
+@media (max-width: 768px) {
+    header .container,
+    .overview-hero .container,
+    .testing .container,
+    .stories article {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav li:first-child {
+        margin-left: 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter form {
+        flex-direction: column;
+        align-items: center;
+    }
+}
