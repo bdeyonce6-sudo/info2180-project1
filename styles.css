@@ -141,3 +141,34 @@ header nav a:hover {
 .card-body p {
     margin: 0;
 }
+
+/* ===== COVID-19 Testing ===== */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 120px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption {
+    flex: 0 1 60%;
+}
+
+.testing-desciption h2 {
+    margin-top: 0;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.testing .btn:hover {
+    background-color: #38a169;
+}
