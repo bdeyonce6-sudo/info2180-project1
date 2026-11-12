@@ -172,3 +172,43 @@ header nav a:hover {
 .testing .btn:hover {
     background-color: #38a169;
 }
+
+/* ===== Recent Stories ===== */
+.stories h2 {
+    color: #5A67D8;
+    margin-top: 0;
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.stories article:last-child {
+    margin-bottom: 0;
+}
+
+.stories article img {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.article-body h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.article-body a {
+    color: #5A67D8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
