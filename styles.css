@@ -78,3 +78,25 @@ header nav a {
 header nav a:hover {
     color: #5A67D8;
 }
+
+/* ===== Hero Overview ===== */
+.overview-hero {
+    background-color: #E2E8F0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.overview-hero-image,
+.overview-hero-text {
+    flex: 1;
+}
+
+.overview-hero-text h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 500;
+}
